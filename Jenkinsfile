@@ -8,6 +8,7 @@ pipeline {
     tools {
         jdk 'jdk-21'
         nodejs 'node-20'
+        maven 'maven-3'
     }
     environment {
         MAVEN_OPTS = '-Dmaven.repo.local=.m2/repository'
