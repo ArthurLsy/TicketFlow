@@ -9,7 +9,7 @@ public record TicketDto(
         Long id,
         String title,
         String description,
-        TicketStatus status,
+        TicketStatus grosStatus,
         TicketPriority priority,
         Instant createdAt,
         Instant updatedAt
