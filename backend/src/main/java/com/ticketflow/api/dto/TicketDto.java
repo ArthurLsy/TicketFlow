@@ -10,7 +10,6 @@ public record TicketDto(
         String title,
         String description,
         TicketStatus grosStatus,
-        feature/ticket-priority,
         TicketPriority priority,
         Instant createdAt,
         Instant updatedAt
